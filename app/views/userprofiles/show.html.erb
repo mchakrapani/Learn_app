@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Usertype:</b>
+  <%= @userprofile.Usertype %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%= @userprofile.Username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @userprofile.password %>
+</p>
+
+
+<%= link_to 'Edit', edit_userprofile_path(@userprofile) %> |
+<%= link_to 'Back', userprofiles_path %>
